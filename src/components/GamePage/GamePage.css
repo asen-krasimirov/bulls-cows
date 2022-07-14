@@ -1,0 +1,43 @@
+.guesses-counter {
+    font-size: 1.5em;
+}
+
+.feedback-output {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.feedback-output > p {
+    margin-top: 5%;
+    font-size: 4em;
+}
+
+.feedback-output .bulls .bulls-count,
+.feedback-output .cows .cows-count {
+    color: #CF093F;
+}
+
+.feedback-right-number .congrats-message {
+    font-size: 3em;
+    text-align: center;
+}
+
+.feedback-right-number .congrats-message .right-number {
+    color: #CF093F;
+}
+
+.feedback-right-number .congrats-message .guesses{
+    font-family: 'Harmattan', serif;
+}
+
+/* responsive-css */
+
+@media all and (max-width: 600px) {
+    .feedback-output > p {
+        font-size: 3em;
+    }
+
+    .feedback-right-number .congrats-message {
+        font-size: 2em;
+    }
+}
