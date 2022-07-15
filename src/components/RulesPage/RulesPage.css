@@ -2,6 +2,10 @@
     width: 50%;
 }
 
+.git-link {
+    color: #CF093F;
+}
+
 /* responsive-css */
 
 @media all and (max-width: 600px) {
