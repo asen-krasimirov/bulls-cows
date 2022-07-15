@@ -26,6 +26,8 @@ function GamePage() {
         let curBulls = 0;
         let curCows = 0;
 
+        console.log(body.guessedNumber);
+
         for (let index = 0; index < numLength; index++) {
             let curDigitToGuess = numberToGuess[index];
 
