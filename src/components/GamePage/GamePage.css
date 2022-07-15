@@ -5,6 +5,7 @@
 .feedback-output {
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
 }
 
 .feedback-output > p {

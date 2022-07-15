@@ -1,0 +1,12 @@
+.rules-holder {
+    width: 50%;
+}
+
+/* responsive-css */
+
+@media all and (max-width: 600px) {
+    .rules-holder {
+        width: 90%;
+        font-size: 2em;
+    }
+}

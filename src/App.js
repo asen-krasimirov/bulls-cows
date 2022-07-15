@@ -7,6 +7,7 @@ import { AttachGuessContext } from './contexts/GuessContext';
 
 import HomePage from './components/HomePage';
 import GamePage from './components/GamePage';
+import RulesPage from './components/RulesPage';
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<HomePage />} />
                     <Route path="/game" element={<GamePage />} />
+                    <Route path="/rules" element={<RulesPage />} />
                 </Routes>
 
             </main>

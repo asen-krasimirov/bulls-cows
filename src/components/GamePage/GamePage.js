@@ -52,9 +52,9 @@ function GamePage() {
         }
     }
 
-    const validateNumberGuessData = number => {
+    // const validateNumberGuessData = number => {
 
-    }
+    // }
 
     const feedBackDisplay = (
         <section className="feedback-output">

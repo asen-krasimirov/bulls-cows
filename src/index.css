@@ -12,9 +12,6 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-
-    /* height: 100%; */
-    /* min-height: 110vh; */
 }
 
 body {
@@ -25,6 +22,13 @@ body {
 
     color: #000000;
     background: #E5E5E5;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .main-title {

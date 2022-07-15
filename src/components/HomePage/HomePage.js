@@ -7,10 +7,9 @@ function HomePage() {
 
             <section className="btn-holder">
 
-                {/* <a href="./game.html" className="main-btn">Play</a> */}
                 <Link to="/game" className="main-btn">Play</Link>
-                <a href="#" className="main-btn">Rules</a>
-                <a href="#" className="main-btn">Some other</a>
+                <Link to="/rules" className="main-btn">Rules</Link>
+                {/* <a href="#" className="main-btn">Some other </a> */}
             </section>
         </>
     );
